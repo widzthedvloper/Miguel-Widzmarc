@@ -11,24 +11,51 @@ section{
 
 #welcome-section{
 
-    height: 100%;
+    height: 100vh;
+    
 }
 
 #navbar{
 
     position: fixed;
     width: 100%;
+    background-color: rgb(63, 21, 218);
+    opacity: 90%;
+    border-radius: 5px;
+    z-index: 2;
+    background-image: url("../descarga.png");
+    height: auto;
+    padding: 25px;
 }
 li{
     display: inline;
     margin: 5px;
+   
 }
 a{
     text-decoration: none;
     appearance: button;
+    color: purple;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid purple;
 }
 ul{
     width:100%;
 }
+#text{
+    width: 45%;
+    float: left;
+    margin:5px;
 
+}
+ img{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.profile{
+    margin-top: 40px;
+}
 
