@@ -8,3 +8,15 @@ section{
     width: 100%;
     background-color: aqua;
 }
+
+#welcome-section{
+
+    height: 100%;
+}
+
+#navbar{
+
+    position: fixed;
+    width: 100%;
+}
+
